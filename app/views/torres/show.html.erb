@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @torre.nombre %>
+</p>
+
+<p>
+  <strong>Portero:</strong>
+  <%= @torre.portero %>
+</p>
+
+<%= link_to 'Edit', edit_torre_path(@torre) %> |
+<%= link_to 'Back', torres_path %>

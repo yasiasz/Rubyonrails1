@@ -1,0 +1,1 @@
+json.array! @torres, partial: 'torres/torre', as: :torre
